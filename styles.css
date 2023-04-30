@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #464c66;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dots {
+    color: #916BBF;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 290px;
+    height: 250px;
+    background-color: #616596;
+    margin: 20px;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.skill p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-content p {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.react {
+    width: 56px;
+    height: 49px;
+}
+
+.progress-bar-base {
+    height: 13px;
+    background-color: white;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.progress-bar-complete {
+    height: 13px;
+    border-radius: 7px;
+    background-color: #916BBF;
+    width: 80%;
+}
+
+.progress-bar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.progress-bar p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin: 6px;
+}
